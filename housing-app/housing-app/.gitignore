@@ -1,0 +1,29 @@
+# ---------- Python / Backend ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+*.log
+
+# Model đã huấn luyện (có thể bỏ qua nếu không muốn commit binary lớn)
+# backend/model/model.pkl
+
+# Dataset gốc - không commit dữ liệu thô lên GitHub
+backend/*.csv
+
+# ---------- Node / Mobile (Expo) ----------
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ---------- OS / Editor ----------
+.DS_Store
+.vscode/
+*.swp

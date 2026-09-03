@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "House Price App",
+    "slug": "house-price-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1f3a5f"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.housepriceapp"
+    },
+    "android": {
+      "package": "com.example.housepriceapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#1f3a5f"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

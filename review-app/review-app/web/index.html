@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dự đoán mức độ hài lòng khách hàng</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>👗 Dự đoán khách hàng có Recommend không?</h1>
+      <p class="subtitle">Nhập nội dung đánh giá sản phẩm để mô hình phân tích và dự đoán</p>
+    </header>
+
+    <form id="predict-form">
+      <div class="field">
+        <label for="title">Tiêu đề đánh giá (không bắt buộc)</label>
+        <input type="text" id="title" placeholder="Ví dụ: Love it! / Disappointed..." />
+      </div>
+
+      <div class="field">
+        <label for="review_text">Nội dung đánh giá</label>
+        <textarea
+          id="review_text"
+          rows="6"
+          placeholder="Nhập nội dung đánh giá sản phẩm (tiếng Anh, vì mô hình huấn luyện trên dữ liệu tiếng Anh)..."
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit" id="submit-btn">Phân tích</button>
+    </form>
+
+    <div id="result" class="result hidden"></div>
+    <div id="error" class="error hidden"></div>
+
+    <div class="examples">
+      <span class="examples-label">Thử nhanh:</span>
+      <button type="button" class="example-btn" data-text="This dress fits perfectly and the fabric feels amazing. Highly recommend!">Tích cực</button>
+      <button type="button" class="example-btn" data-text="Terrible quality, fabric is cheap and it fell apart after one wash. Very disappointed.">Tiêu cực</button>
+      <button type="button" class="example-btn" data-text="It was okay, nothing special, sizing was a bit off.">Trung lập</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

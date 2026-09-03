@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Review Recommend App",
+    "slug": "review-recommend-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1f3a5f"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.reviewrecommendapp"
+    },
+    "android": {
+      "package": "com.example.reviewrecommendapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#1f3a5f"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

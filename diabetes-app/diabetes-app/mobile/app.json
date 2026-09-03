@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Diabetes Risk App",
+    "slug": "diabetes-risk-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1f3a5f"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.diabetesriskapp"
+    },
+    "android": {
+      "package": "com.example.diabetesriskapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#1f3a5f"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
